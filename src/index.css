@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Noto Sans JP, sans-serif';
+  font-size: 14px
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff; 
+}
+
+ .card {
+  width: 1000px;
+  margin: 20px auto;
+  font-size: 0.5rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.card-button {
+  text-align: right; 
+}
+
+
+.pi-trash {
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.pi-trash:hover {
+  background-color: #e9ecef;
+  border-radius: 50%;
+}
+
+.new-contact__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-contact__control label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  display: block;
+}
+
+.new-contact__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  margin: 10px auto;
+}
+
+.new-contact__actions {
+    text-align: right;
+}
