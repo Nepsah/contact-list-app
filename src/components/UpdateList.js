@@ -6,7 +6,7 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 
-const ExpensesList = (props) => {
+const UpdateList = (props) => {
   const deleteContactHandler = async (id) => {
     await api.delete(`/contact/${id}`);
     props.setContacts(props.contacts.filter((contact) => contact._id !== id));
@@ -103,4 +103,4 @@ const ExpensesList = (props) => {
   );
 };
 
-export default ExpensesList;
+export default UpdateList;
